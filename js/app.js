@@ -46,6 +46,7 @@ function initMap() {
 
         tarifa.classList.remove("display-none");
         var cost = distance * 1.75;
+        tarifa.innerHTML="";
         tarifa.appendChild(document.createTextNode(`Costo del viaje: S/. ${parseInt(cost)}`));
         tarifa.appendChild(document.createTextNode(`\n Llegaras en: ${duration} aprox.`));
         directionsDisplay.setDirections(result);
