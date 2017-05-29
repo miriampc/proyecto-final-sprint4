@@ -39,7 +39,6 @@ h2,h3,h4 {
 }
 h3 {
   font-family: 'Raleway', sans-serif;
-  /*font-size: 3.5rem;*/
   font-weight: 600;
 }
 /*Hambuerguer menu*/
@@ -141,8 +140,12 @@ h3 {
   color: #fff;
 }
 
-.tarifas .form-control::-webkit-input-placeholder,
-.tarifas .form-control:-moz-placeholder,
+.tarifas .form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+.tarifas .form-control:-moz-placeholder {
+  color: #fff;
+}
 .tarifas .form-control:-ms-input-placeholder {
   color: #fff;
 }
@@ -151,9 +154,11 @@ h3 {
   height: 350px;
   padding: 10px;
 }
+
 #mapa {
   height: 100%;
 }
+
 #tarifa {
   width: 250px;
   height: 100px;
@@ -227,5 +232,4 @@ footer {
     height: auto;
     margin: 10px 0;
   }
-
 }
