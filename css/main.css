@@ -60,10 +60,13 @@ button {
 .information {
   margin-top: 100px;
 }
-.information .thumbnail {
+
+.information .thumbnail{
+  margin: 5% 2%;
+}
+.thumbnail {
   background: none;
   border-color: #fff;
-  margin: 5% 2%;
   padding: 2%;
 }
 .information img{
@@ -85,6 +88,25 @@ button {
   padding: 7% 14px;
   background-color: rgba(52, 52, 52, 0.45);
   height: 280px;
+}
+
+/*Section Tarifas*/
+.tarifas {
+  padding: 5% 3%;
+}
+.tarifas .form-control {
+  background: none;
+  border: 1px solid #fff;
+  width: 80%;
+  display: inline-block;
+}
+
+.tarifas .form-control {
+
+}
+
+.tarifas .thumbnail {
+  /*background:*/
 }
 
 @media screen and (min-width:992px) {
