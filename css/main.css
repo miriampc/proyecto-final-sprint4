@@ -5,6 +5,8 @@
 }
 body {
   font-size: 16px;
+  line-height: 28px;
+  background-color: #f7b617;
 }
 
 header {
@@ -48,7 +50,7 @@ header {
   padding: 20px;
   font-family: 'Raleway', sans-serif;
 }
-.hero button {
+button {
   margin-top: 30px;
   font-weight: 600;
 }
@@ -57,7 +59,6 @@ header {
 
 .information {
   margin-top: 100px;
-  background-color: #f7b617;
 }
 .information .thumbnail {
   background: none;
@@ -72,6 +73,18 @@ header {
 .information .thumbnail p{
   line-height: 28px;
   margin: 20px 0;
+}
+
+/*Sectiion Drive*/
+.drive {
+  background-image: url("../images/conduce.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.drive .content {
+  padding: 7% 14px;
+  background-color: rgba(52, 52, 52, 0.45);
+  height: 280px;
 }
 
 @media screen and (min-width:992px) {
@@ -101,6 +114,13 @@ header {
   }
   .information .thumbnail {
     transform:translateX(-15%);
+  }
+/*Section Drive*/
+  .drive {
+    background-position: center;
+  }
+  .drive .content {
+    height: 400px;
   }
 
 }
