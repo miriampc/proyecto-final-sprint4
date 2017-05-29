@@ -20,6 +20,10 @@ header {
   align-items: center;
   z-index: 4;
 }
+a{
+  text-decoration: none;
+  color: #fff;
+}
 .pd-top-70{
   padding-top: 70px;
 }
@@ -109,6 +113,29 @@ button {
   /*background:*/
 }
 
+/*Footer*/
+footer {
+  background: #2b2b2b;
+  padding: 5% 0;
+}
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+.footer ul>li {
+  list-style: none;
+}
+
+.footer .store-img{
+  width: 98%;
+  height: 50px;
+  margin: 10px 0;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #ababab;
+}
+
 @media screen and (min-width:992px) {
   .hero {
     width: 40%;
@@ -143,6 +170,13 @@ button {
   }
   .drive .content {
     height: 400px;
+  }
+
+  /*Footer*/
+  .footer .store-img{
+    width: auto;
+    height: auto;
+    margin: 10px 0;
   }
 
 }
