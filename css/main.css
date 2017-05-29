@@ -1,5 +1,10 @@
 * {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  color: #fff;
+}
+body {
+  font-size: 16px;
 }
 
 header {
@@ -9,8 +14,62 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  z-index: 4;
 }
 .menu-nav ul li a{
   color: #000;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.home {
+  background-image: url("../images/taxi.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:bottom;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top:100px;
+}
+
+.hero {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  background-color: #f7b617;
+  width: 80%;
+  height: 320px;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.hero button {
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+@media screen and (min-width:992px) {
+  .hero {
+    width: 40%;
+    height: 420px;
+  }
+  .hero span {
+    font-size: 1.8rem;
+  }
+  .hero hr {
+    width: 100%;
+  }
+  .hero hr::after {
+    content: "O bien";
+    position: relative;
+    top: -15px;
+    left: 35%;
+    width: 80px;
+    background-color: #f7b617;
+    padding: 0 50px;
+  }
+
+
 }
