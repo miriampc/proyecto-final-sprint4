@@ -71,7 +71,6 @@ button {
 .thumbnail {
   background: none;
   border-color: #fff;
-  padding: 2%;
 }
 .information img{
   width: 80%;
@@ -80,6 +79,7 @@ button {
 .information .thumbnail p{
   line-height: 28px;
   margin: 20px 0;
+    padding: 2%;
 }
 
 /*Sectiion Drive*/
@@ -108,9 +108,12 @@ button {
 .tarifas .form-control {
 
 }
-
 .tarifas .thumbnail {
-  /*background:*/
+  height: 350px;
+  padding: 10px;
+}
+#mapa {
+  height: 100%;
 }
 
 /*Footer*/
