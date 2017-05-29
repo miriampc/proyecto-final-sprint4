@@ -1,11 +1,10 @@
 * {
   font-family: 'Open Sans', sans-serif;
-  /*font-family: 'Raleway', sans-serif;*/
-  color: #fff;
 }
 body {
   font-size: 16px;
   line-height: 28px;
+  color: #fff;
   background-color: #f7b617;
 }
 
@@ -24,9 +23,33 @@ a{
   text-decoration: none;
   color: #fff;
 }
-.pd-top-70{
-  padding-top: 70px;
+button {
+  margin-top: 30px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
 }
+.display-none {
+  display: none;
+}
+/*Hambuerguer menu*/
+.dropdown button {
+  margin-top: 0;
+}
+.dropdown span {
+  color: #2b2b2b;
+}
+.row .dropdown-menu {
+  width: 766px;
+  height: 60vh;
+}
+.dropdown ul>li{
+  padding: 5%;
+}
+.dropdown ul>li:hover{
+  background: #f5f5f5;
+}
+
+/*Nav bar*/
 .menu-nav ul li a{
   color: #000;
   font-weight: 600;
@@ -54,10 +77,6 @@ a{
   padding: 20px;
   font-family: 'Raleway', sans-serif;
 }
-button {
-  margin-top: 30px;
-  font-weight: 600;
-}
 
 /*Section Information*/
 
@@ -65,8 +84,14 @@ button {
   margin-top: 100px;
 }
 
+.information h2 {
+  font-family: 'Raleway', sans-serif;
+}
+.information p {
+  font-family: 'Open Sans', sans-serif;
+}
 .information .thumbnail{
-  margin: 5% 2%;
+  margin: 5%   2%;
 }
 .thumbnail {
   background: none;
@@ -79,7 +104,7 @@ button {
 .information .thumbnail p{
   line-height: 28px;
   margin: 20px 0;
-    padding: 2%;
+  padding: 2%;
 }
 
 /*Sectiion Drive*/
@@ -103,11 +128,15 @@ button {
   border: 1px solid #fff;
   width: 80%;
   display: inline-block;
+  color: #fff;
 }
 
-.tarifas .form-control {
-
+.tarifas .form-control::-webkit-input-placeholder,
+.tarifas .form-control:-moz-placeholder,
+.tarifas .form-control:-ms-input-placeholder {
+  color: #fff;
 }
+
 .tarifas .thumbnail {
   height: 350px;
   padding: 10px;
@@ -115,11 +144,18 @@ button {
 #mapa {
   height: 100%;
 }
+#tarifa {
+  width: 250px;
+  height: 100px;
+  color: #2b2b2b;
+  font-size: 1.9rem;
+  margin-top: 20px;
+}
 
 /*Footer*/
 footer {
   background: #2b2b2b;
-  padding: 5% 0;
+  padding: 10% 0;
 }
 .footer ul {
   margin: 0;
