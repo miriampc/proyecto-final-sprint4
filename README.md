@@ -1,24 +1,3 @@
-# Lab Car
-Labcar es una empresa de taxis que te permite pedir un taxi cuando quieras y en donde quieras.
-## La página web de Labcar esta conformada por:
-- navbar
-- hero
-- information
-- drive
-- tarifa
-- footer
-
-Cada sección se desarrollo en diferentes ramas, empezando por el navbar y finalizando con footer.
-
-El sitio web se desarrollo con CSS, HTML, JS, y uso de API de google Maps.
-
-Al cargar la página web nos solicita permiso para localizar nuestra ubicacion, se debe permitir para encontrar nuestra ubicación y 
-poder calcular la distancia.
-
-Desarrollado por: Miriam Peralta Castañeda
-
-**Ver web page aqui:** https://miriampc.github.io/proyecto-final-sprint4/
-
 ![LabCar](images/logo.png)
 
 # LabCar | Servicio de Taxi
@@ -42,11 +21,11 @@ El nav en la versión mobile aparece como una menú tipo hamburguesa.<br/>
 En la versión desktop se visualiza así:<br/>
 ![Navbar](img-read/nav-hero.jpg)
 
-### Información
+### Information
 En esta sección tenemos una maquetado que utiliza clases de bootstrap como thumbnail entre otras<br/>
 ![Información](img-read/info.jpg)
 
-### Conduce
+### Drive
 Aquí se aplican conocimientos previos como hacer un background con color en rgba entre otros recursos<br/>
 ![Conduce](img-read/conduce.jpg)
 
@@ -72,6 +51,14 @@ Tiene varios links, se uso flexbox y el grid de bootstrap <br/>
 ## Versión Mobile
 ![gif-versión-Mobile](img-read/vMobile.gif)
 
+## Nota:
+Al cargar la página web nos solicita permiso para localizar nuestra ubicacion, se debe permitir para encontrar nuestra ubicación y 
+poder calcular la distancia.
+
 ## Desarrollado con:
 
 `HTML` `JavaScript` `CSS` `BOOTSTRAP` `APIs`
+
+Desarrollado por: Miriam Peralta Castañeda
+
+**Ver web page aqui:** https://miriampc.github.io/proyecto-final-sprint4/
